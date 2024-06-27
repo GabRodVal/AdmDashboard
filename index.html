@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="side-bar">
         <div class="side-bar-head">
-            <svg class="side-bar-icon"></svg>
+            <svg class="side-bar-head-icon"></svg>
             <p class="side-bar-text"> ADM DASHBOARD</p>
         </div>
         <div class="side-bar-item-high">
@@ -35,101 +36,120 @@
             <svg class="side-bar-icon"></svg>
             <p class="side-bar-text">Comunidade</p>
         </div>
-        <div class="side-bar-item-low">
-            <svg class="side-bar-icon"></svg>
-            <p class="side-bar-text">Configura&ccedil;&otilde;es</p>
-        </div>
-        <div class="side-bar-item-low">
-            <svg class="side-bar-icon"></svg>
-            <p class="side-bar-text">Suporte</p>
-        </div>
-        <div class="side-bar-item-low">
-            <svg class="side-bar-icon"></svg>
-            <p class="side-bar-text">Privacidade</p>
-        </div>
-    </div>
-
-    <div>
-        <div class="search-bar-box">
-            <svg class="search-icon"></svg>
-            <input type="text" name="search-bar" placeholder="Procure um projeto aqui..." id="search-bar">
-        </div>
-        <div class="profile-top">
-            <svg class="bell-icon"></svg>
-            <img src="" alt="" class="user-image-top">
-            <p class="username-top">Fulano</p>
-        </div>
-        <div class="user-area">
-            <img src="" alt="" class="user-image-main">
-            <div class="user-area-text-box">
-                <p class="user-area-text-welcome">Seja bem vindo,</p>
-                <p class="user-area-text-username">Fulano (@fulano_de_tal66)</p>
+        <div class="lower-bar">
+            <div class="side-bar-item-low">
+                <svg class="side-bar-icon"></svg>
+                <p class="side-bar-text">Configura&ccedil;&otilde;es</p>
             </div>
-            <div class="project-buttons">
-                <button type="button">Novo</button>
-                <button type="button">Enviar</button>
-                <button type="button">Compartilhar</button>
+            <div class="side-bar-item-low">
+                <svg class="side-bar-icon"></svg>
+                <p class="side-bar-text">Suporte</p>
+            </div>
+            <div class="side-bar-item-low">
+                <svg class="side-bar-icon"></svg>
+                <p class="side-bar-text">Privacidade</p>
             </div>
         </div>
     </div>
 
-    <div>
-        <div class="projects-box">
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
+    <div class="r-box">
+        <div class="user-header">
+            <div class="search-bar-box">
+                <svg class="search-icon"></svg>
+                <input type="text" name="search-bar" placeholder="Procure um projeto aqui..." id="search-bar">
             </div>
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
+            <div class="profile-top">
+                <svg class="bell-icon"></svg>
+                <img src="resources\rat.jpg" alt="" class="user-image-top">
+                <p class="username-top">Fulano</p>
             </div>
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
-            </div>
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
-            </div>
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
-            </div>
-            <div class="project">
-                <p class="project-title">A project</p>
-                <p class="project-text"> A project about a project about a project</p>
+            <div class="user-area">
+                <img src="resources\rat.jpg" alt="" class="user-image-main">
+                <div class="user-area-text-box">
+                    <p class="user-area-text-welcome">Seja bem vindo,</p>
+                    <p class="user-area-text-username">Fulano (@fulano_de_tal66)</p>
+                </div>
+                <div class="project-buttons">
+                    <button type="button" class="user-area-button">Novo</button>
+                    <button type="button" class="user-area-button">Enviar</button>
+                    <button type="button" class="user-area-button">Compartilhar</button>
+                </div>
             </div>
         </div>
-        <div class="announcements-box">
-            <div class="announcement">
-                <p class="announcement-title">A announcement</p>
-                <p class="announcement-text"> A announcement about a announcement about a announcement</p>
+
+        <div class="workspace">
+            <div class="projects-box">
+                <p class="projects-head">Meus Projetos</p>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text"> Donec efficitur vitae purus eget aliquam. Ut interdum egestas mattis. Quisque nec diam ex. Suspendisse ex risus, tincidunt vitae mattis quis, blandit sed ante. Etiam lobortis semper fringilla. Suspendisse id commodo augue, at gravida lectus. Quisque bibendum tempus nibh a mollis. Aliquam id nisi at lacus volutpat molestie at ut justo. Donec mattis, mi at interdum feugiat, ex augue volutpat neque, eu pellentesque tortor dui in est. </p>
+                </div>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text"> Sed gravida, tortor vel dignissim feugiat, urna tortor tempor massa, sed vehicula velit ex tincidunt purus. Curabitur mi augue, tempus in posuere vel, vulputate ut urna. Nulla dapibus purus in magna pretium aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam efficitur augue ac tellus tempor finibus. Suspendisse hendrerit scelerisque risus, ac feugiat tortor efficitur a. Aenean hendrerit vulputate quam. Vestibulum euismod dolor ut orci pharetra, eget pretium est sagittis. </p>
+                </div>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text">  Donec lobortis nisl in neque commodo molestie. Suspendisse volutpat tortor non maximus tincidunt. Integer a rutrum nunc, lobortis pharetra nibh. In massa lacus, volutpat tempor feugiat facilisis, facilisis vitae nisl. Pellentesque aliquet arcu vitae ipsum congue dictum. Ut quis dui at velit bibendum finibus et at diam. Integer vel tellus vitae lorem rutrum fermentum. Vestibulum id dui et arcu posuere tincidunt sed at nibh. Proin posuere, libero varius volutpat molestie, dolor augue interdum turpis, nec convallis erat nulla nec magna. Nullam gravida sodales lacus, eu luctus arcu maximus non. Aliquam sit amet ullamcorper erat. </p>
+                </div>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text"> Nam in felis a lorem bibendum consectetur in ac nibh. Integer porta, erat non venenatis eleifend, tortor leo mollis tellus, quis tempus odio urna sit amet risus. Praesent id orci eget massa ultricies cursus. Donec nec enim a odio sollicitudin fermentum a non mi. Nulla facilisi. Integer metus risus, condimentum non congue non, facilisis et metus. In sollicitudin libero id dui vehicula faucibus. Integer aliquam eu augue id maximus. Aliquam erat volutpat. In pretium maximus lacus a efficitur. Phasellus ac dui porta lorem faucibus facilisis. Maecenas vitae tempor urna. Suspendisse potenti. Quisque dui ligula, molestie sed dui egestas, hendrerit rhoncus nisl. Proin id lorem in sem lobortis tincidunt vitae volutpat risus. Curabitur et interdum purus. </p>
+                </div>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text"> Aliquam sed blandit lectus, vitae auctor mauris. Maecenas sed convallis magna, at blandit nibh. Vestibulum a condimentum nisl. Mauris sed nisi sit amet felis rutrum blandit. Aliquam commodo turpis nec risus rutrum, eu aliquet lacus vulputate. Morbi semper ipsum vitae orci semper malesuada. Duis non bibendum mauris, in consequat diam. Praesent vestibulum euismod turpis, accumsan blandit augue vehicula ac. Vestibulum nec nisl sed metus imperdiet tincidunt. Ut eu mauris sem. Duis odio felis, finibus in fringilla in, tincidunt at tellus. Integer consequat risus sed enim dignissim, eu efficitur tortor iaculis. Proin viverra volutpat tincidunt. Morbi elit purus, fermentum lacinia porta eget, semper placerat nulla. </p>
+                </div>
+                <div class="project">
+                    <p class="project-title">A project</p>
+                    <p class="project-text"> Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent interdum enim quis eros semper feugiat. Phasellus sem dui, laoreet tincidunt arcu nec, consectetur consequat mi. Aenean lacinia sapien odio, in porttitor tortor commodo quis. Suspendisse accumsan ante vel risus egestas, eu hendrerit mi varius. Quisque ultrices feugiat metus sed iaculis. In feugiat dignissim risus, in feugiat sem sollicitudin ac. Phasellus blandit enim mi, eget maximus erat facilisis sed. Curabitur id odio in dui ornare blandit. Sed gravida ante a nisi gravida, ac vulputate velit sodales. Integer tempor diam justo, eget aliquam sem porttitor suscipit. Vivamus purus justo, pharetra in lacus vitae, aliquam condimentum nisl. </p>
+                </div>
             </div>
-            <div class="announcement">
-                <p class="announcement-title">A announcement</p>
-                <p class="announcement-text"> A announcement about a announcement about a announcement</p>
+            <div class="announcements-box">
+                <p class="announcements-head">An&uacute;ncios</p>
+                <div class="announcement">
+                    <p class="announcement-title">A announcement</p>
+                    <p class="announcement-text">  Donec efficitur vitae purus eget aliquam. Ut interdum egestas mattis. Quisque nec diam ex. Suspendisse ex risus, tincidunt vitae mattis quis, blandit sed ante. Etiam lobortis semper fringilla. Suspendisse id commodo augue, at gravida lectus. Quisque bibendum tempus nibh a mollis. Aliquam id nisi at lacus volutpat molestie at ut justo. Donec mattis, mi at interdum feugiat, ex augue volutpat neque, eu pellentesque tortor dui in est. </p>
+                </div>
+                <div class="announcement">
+                    <p class="announcement-title">A announcement</p>
+                    <p class="announcement-text"> Sed gravida, tortor vel dignissim feugiat, urna tortor tempor massa, sed vehicula velit ex tincidunt purus. Curabitur mi augue, tempus in posuere vel, vulputate ut urna. Nulla dapibus purus in magna pretium aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam efficitur augue ac tellus tempor finibus. Suspendisse hendrerit scelerisque risus, ac feugiat tortor efficitur a. Aenean hendrerit vulputate quam. Vestibulum euismod dolor ut orci pharetra, eget pretium est sagittis. </p>
+                </div>
+                <div class="announcement">
+                    <p class="announcement-title">A announcement</p>
+                    <p class="announcement-text">  Donec lobortis nisl in neque commodo molestie. Suspendisse volutpat tortor non maximus tincidunt. Integer a rutrum nunc, lobortis pharetra nibh. In massa lacus, volutpat tempor feugiat facilisis, facilisis vitae nisl. Pellentesque aliquet arcu vitae ipsum congue dictum. Ut quis dui at velit bibendum finibus et at diam. Integer vel tellus vitae lorem rutrum fermentum. Vestibulum id dui et arcu posuere tincidunt sed at nibh. Proin posuere, libero varius volutpat molestie, dolor augue interdum turpis, nec convallis erat nulla nec magna. Nullam gravida sodales lacus, eu luctus arcu maximus non. Aliquam sit amet ullamcorper erat. </p>
+                </div>
             </div>
-            <div class="announcement">
-                <p class="announcement-title">A announcement</p>
-                <p class="announcement-text"> A announcement about a announcement about a announcement</p>
-            </div>
-        </div>
-        <div class="trending-box">
-            <div class="trending">
-                <p class="trending-title">Trending user</p>
-                <p class="trending-text">A very cool guy</p>
-            </div>
-            <div class="trending">
-                <p class="trending-title">Trending user</p>
-                <p class="trending-text">A very cool guy</p>
-            </div>
-            <div class="trending">
-                <p class="trending-title">Trending user</p>
-                <p class="trending-text">A very cool guy</p>
-            </div>
-            <div class="trending">
-                <p class="trending-title">Trending user</p>
-                <p class="trending-text">A very cool guy</p>
+            <div class="trending-box">
+                <p class="trending-head">Em Alta</p>
+                <div class="trending">
+                    <img src="resources\rat.jpg" class="trending-user">
+                    <div class="trending-info">
+                        <p class="trending-title">Trending user</p>
+                        <p class="trending-text">A very cool guy</p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="resources\rat.jpg" class="trending-user">
+                    <div class="trending-info">
+                        <p class="trending-title">Trending user</p>
+                        <p class="trending-text">A very cool guy</p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="resources\rat.jpg" class="trending-user">
+                    <div class="trending-info">
+                        <p class="trending-title">Trending user</p>
+                        <p class="trending-text">A very cool guy</p>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="resources\rat.jpg" class="trending-user">
+                    <div class="trending-info">
+                        <p class="trending-title">Trending user</p>
+                        <p class="trending-text">A very cool guy</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
